@@ -19,9 +19,9 @@ paragraphs = browser.find_elements(By.TAG_NAME, "p")
 
 # Для перебора пишем цикл
 for paragraph in paragraphs:
-    # pprint.pprint(paragraph.text)
+    print(paragraph.text)
     pprint.pprint(paragraph)
-#     input()
+    input()
 #################################################################
 
 #################################################################
